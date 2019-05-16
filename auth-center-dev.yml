@@ -13,9 +13,9 @@ spring:
     port: ${REDIS_PORT:6379}
   datasource:
     druid:
-      url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/main-data?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-      username: fangp
-      password: "000000"
+      url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/spring-cloud-base?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: 123456
       driver-class-name: com.mysql.jdbc.Driver
       max-active: 20
       initial-size: 1
